@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
+
+grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+}
+
+header {
+    background-color: #F0F0F0;
+    border-bottom: solid black;
+    border-width: thin;
+    align-content: flex-start;
+}
+
+header ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+header li {
+    display: inline;
+    font-size: 12px;
+    font-family: verdana;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+
+#red-hack {
+    color: red;
+}
+
+#edit-right {
+    text-align: right;
+}

@@ -10,6 +10,13 @@ grid-1 {
     grid-auto-rows: auto;
 }
 
+grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr;
+    grid-auto-rows: auto;
+    background-color: #CEE3F8;
+}
+
 header {
     background-color: #F0F0F0;
     border-bottom: solid black;
@@ -36,6 +43,59 @@ header li:hover {
     color: red;
 }
 
+#hot-hack {
+    border: solid black;
+    border-width: thin;
+    border-bottom: solid white;
+    color: red;
+}
+
 #edit-right {
     text-align: right;
+}
+
+nav {
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: solid #5f99cf;
+    border-width: thin;
+    position: relative;
+}
+
+.reddit-pic {
+    height: 75px;
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav > div > ul > li {
+    display: inline;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #FBFBFB;
+    color: #5f99cf;
+    margin-left: .1em;
+    margin-right: .1em;
+    padding-left: .3em;
+    padding-right: .3em;
+}
+
+.profile-ops > div {
+    background-color: #FBFBFB;
+    color: #5f99cf;
+    border-top-left-radius: 5px;
+    margin-top: 25px;
+    float: right;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.profile-ops > li {
+    display: inline;
+    list-style-type: none;
+    font-size: 15px;
 }
